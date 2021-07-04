@@ -1,10 +1,15 @@
 html, body {
     font-family: 'Roboto', sans-serif;
     height: 100%;
+    margin: 0;
 }
 
 h1 {
     font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 .orange-color {
@@ -13,6 +18,7 @@ h1 {
 
 .flexible-container {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .top-banner {
@@ -23,11 +29,11 @@ h1 {
 
 .half-width {
     width: 50%;
-    padding-left: 5%;
+    padding: 2%;
 }
 
 .half-width img {
-    width: 70%;
+    width: 80%;
 }
 
 .link-button {
@@ -35,4 +41,37 @@ h1 {
     background-image: linear-gradient(tomato, orange);
     color: white;
     padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#full-stack-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+#web-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
 }
